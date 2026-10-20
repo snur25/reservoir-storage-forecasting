@@ -44,7 +44,7 @@ Compute cost per fold (CPU):
 ### Findings
 1. **XGBoost and the LSTM beat the best baseline (anomaly persistence) in 5 of 5 folds at all three reservoirs**, with 11-26% lower MAE.
 2. **XGBoost beats Ridge in 5, 4 and 5 of 5 folds** (Folsom, Oroville, Shasta), suggesting the weather-storage relationship is partly nonlinear.
-3. **XGBoost and the LSTM are close**: the LSTM beats XGBoost in only 3, 1 and 1 of 5 folds, so I do not claim either is more accurate. The LSTM costs about 6-10 times more to train.
+3. **XGBoost and the LSTM are close**: the LSTM beats XGBoost in only 3, 1 and 1 of 5 folds, so I do not claim either is more accurate. The LSTM costs about 7-13 times more to train.
 4. **Dry periods remain hard.** On low-storage days no model beats the baselines consistently, and all learned models tend to overpredict storage (positive bias), meaning forecasts are too optimistic when water is scarce.
 
 ## Limitations
