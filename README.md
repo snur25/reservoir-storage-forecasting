@@ -52,7 +52,6 @@ Compute cost per fold (CPU):
 - Weather is taken at one point near each reservoir, not averaged over the upstream catchment; no snowpack or inflow data are used.
 - Reservoir operations (releases for irrigation, flood control, power) are not modelled.
 - Storage is total reservoir storage, not drinking water alone.
-- Hyperparameters are not tuned; fold-to-fold spreads are large (see `reservoir_summary.csv`); timings come from one run on one machine.
 
 ## Next steps
 Upstream catchment weather and snow water equivalent, observed inflows, hyperparameter tuning with equal budgets for all models, uncertainty estimates, and a drought-focused evaluation.
